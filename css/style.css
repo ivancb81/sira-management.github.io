@@ -56,14 +56,6 @@ a.secondary-color-text:hover {
 
 /* HEADER */
 
-.topbar {
-  background-color: #3293DF;
-  padding: 10px 0px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  z-index: 2;
-}
-
 .topbar-text {
   padding-right: 40px;
 }
@@ -119,17 +111,17 @@ a.secondary-color-text:hover {
 /* S:NAVBAR */
 .navbar {
   /*position: relative;*/
-  z-index: 9999;
+  z-index: 6;
 }
 
 .navbar .nav-link {
   position: relative;
-  z-index: 9999;
+  z-index: 6;
 }
 
 .navbar .navbar-nav {
   position: relative;
-  z-index: 9999;
+  z-index: 6;
 }
 
 .navigasi {
@@ -198,16 +190,25 @@ a.secondary-color-text:hover {
     margin-bottom: 3px;
   } */
 .navbar.sticky-top {
-  margin-top: -546px;
+  margin-top: -895px;
 }
 
-.navbar.sticky-sm-top {
-  margin-top: -846px;
+.topbar {
+  background-color: #3293DF;
+  padding: 10px 0px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  z-index: 9999;
+  position: relative;
 }
 
-.navbar.sticky-md-top {
-
-  margin-top: -846px;
+.navbar .container {
+  /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+  padding-top: 40px;
+  /* Jarak aman minimal yang Anda inginkan */
+  /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+       Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
+  padding-top: calc(40px - env(safe-area-inset-top));
 }
 
 /* HEADER */
@@ -691,6 +692,15 @@ a.secondary-color-text:hover {
     margin-top: -1365px;
   }
 
+  .navbar .container {
+    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+    padding-top: 0px;
+    /* Jarak aman minimal yang Anda inginkan */
+    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+       Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
+    padding-top: calc(0px - env(safe-area-inset-top));
+  }
+
   /* HEADER */
 
   #content {
@@ -723,10 +733,11 @@ a.secondary-color-text:hover {
 
   .topbar {
     z-index: 2;
+
   }
 
   .topbar-text {
-    padding-right: 40px;
+    padding-right: 30px;
   }
 
   .jumbotron-text {
@@ -840,7 +851,42 @@ a.secondary-color-text:hover {
     padding-right: 30px;
   }
 
-  .navbar.sticky-xl-top {
+  .navbar.sticky-top {
+    /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+      Nilai -80px ini adalah CONTOH. 
+      Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
+      agar pas dengan posisi yang Anda inginkan di atas jumbotron.
+    */
+    margin-top: -1025px;
+  }
+
+  .navbar .container {
+    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+    padding-top: 0px;
+    /* Jarak aman minimal yang Anda inginkan */
+    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+       Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
+    padding-top: calc(0px - env(safe-area-inset-top));
+  }
+
+  .topbar-text {
+    padding-right: 50px;
+  }
+
+  /* HEADER */
+
+  #content {
+    margin-top: 750px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header-menu {
+    padding-left: 130px;
+    padding-right: 30px;
+  }
+
+  .navbar.sticky-top {
     /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
       Nilai -80px ini adalah CONTOH. 
       Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
@@ -849,9 +895,23 @@ a.secondary-color-text:hover {
     margin-top: -765px;
   }
 
+  .navbar .container {
+    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+    padding-top: 0px;
+    /* Jarak aman minimal yang Anda inginkan */
+    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+       Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
+    padding-top: calc(0px - env(safe-area-inset-top));
+  }
+
+  .topbar-text {
+    padding-right: 50px;
+  }
+
   /* HEADER */
 
   #content {
     margin-top: 750px;
   }
+
 }
