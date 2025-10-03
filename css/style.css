@@ -1,0 +1,856 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL"0, "wght"1000, "GRAD"0, "opsz"48;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL"0, "wght"400, "GRAD"0, "opsz"48;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.primary-color-text {
+  color: #3293df !important;
+}
+
+.secondary-color-text {
+  color: #1c76bc !important;
+}
+
+.third-color-text {
+  color: #6c6c6c !important;
+}
+
+a.secondary-color-text:hover {
+  color: #5cb566 !important;
+}
+
+.primary-font-size {
+  font-size: 1rem !important;
+}
+
+.secondary-font-size {
+  font-size: 0.9rem !important;
+}
+
+.third-font-size {
+  font-size: 0.8rem !important;
+}
+
+.fourth-font-size {
+  font-size: 2.5rem !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.background-secondary-color {
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+
+.topbar {
+  background-color: #3293DF;
+  padding: 10px 0px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.topbar-text {
+  padding-right: 40px;
+}
+
+.jumbotron {
+  background: url("../pictures/jumbotron.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+  background-attachment: fixed;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0));
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.jumbotron-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  z-index: 2;
+  padding-top: 45vh;
+  padding-left: 35px;
+}
+
+.jumbotron-button {
+  color: white;
+  font-weight: 400;
+  margin-left: 35px;
+  font-size: 1rem;
+  background-color: #5cb566;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+/* S:NAVBAR */
+.navbar {
+  /*position: relative;*/
+  z-index: 9999;
+}
+
+.navbar .nav-link {
+  position: relative;
+  z-index: 9999;
+}
+
+.navbar .navbar-nav {
+  position: relative;
+  z-index: 9999;
+}
+
+.navigasi {
+  padding: 0px 0px;
+}
+
+.navigasi-logo img {
+  max-width: 280px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin: 0 0px;
+  font-weight: 500;
+  color: #3293DF;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  cursor: pointer;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,147,223, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.closebutton {
+  color: #3293DF !important;
+  font-size: 2rem !important;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.closebutton:hover {
+  color: #19486e !important;
+}
+
+
+
+/* .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    padding: 0px 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: white;
+    font-size: 1rem;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1px;
+    margin-bottom: 3px;
+  } */
+
+.navbar.sticky-top {
+  /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+      Nilai -80px ini adalah CONTOH. 
+      Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
+      agar pas dengan posisi yang Anda inginkan di atas jumbotron.
+    */
+  margin-top: -846px;
+  padding-top: env(safe-area-inset-top);
+}
+
+/* HEADER */
+
+#content {
+  margin-top: 800px;
+}
+
+/* S: CONTENT HOME */
+
+.text-01-besar {
+  color: #3293df;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text-01-kecil {
+  color: black;
+  font-size: 1rem;
+  color: #6c6c6c;
+  font-weight: 400;
+}
+
+.our-focus-image img {
+  object-fit: cover;
+  height: 206px;
+  width: 100%;
+}
+
+.our-focus-image h5 {
+  color: #1c76bc;
+  margin-top: 10px;
+}
+
+.our-focus-image p {
+  font-size: 0.9rem;
+  color: #6c6c6c;
+}
+
+.content-home-bg-contact {
+  background-color: #19486e;
+}
+
+.get-in-touch-text {
+  font-weight: 600;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.get-in-touch-button {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #5cb566;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.get-in-touch-button:hover {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #5cb566;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.get-in-touch-button:active {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #5cb566;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  -o-transform: translateY(1px);
+}
+
+.content-home-why-choose img {
+  width: 123px;
+  height: 123px;
+  object-fit: cover;
+}
+
+.content-home-productivity img {
+  height: 250px;
+}
+
+.content-home-bg-contact-us {
+  background-color: #1c76bc;
+}
+
+.content-home-footer {
+  background-image: url("../images/Group.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.content-home-bg-footer {
+  background-color: #5cb566;
+  height: 50px;
+}
+
+/* E: CONTENT HOME */
+
+/* S: CONTENT ABOUT US */
+.jumbotron-about-us {
+  background: url("../pictures/jumbotron-about-us.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 39px;
+  background-attachment: fixed;
+}
+
+.jumbotron-about-us::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.jumbotron-about-us-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  z-index: 9997;
+  padding-top: 45vh;
+  padding-left: 35px;
+}
+
+.content-about-us-text {
+  margin-bottom: 60px;
+}
+
+/* E: CONTENT ABOUT US */
+
+/* S: CONTENT INHOUSE TRAINING */
+
+.jumbotron-inhouse-training {
+  background: url("../pictures/jumbotron-inhouse.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 39px;
+  background-attachment: fixed;
+}
+
+.jumbotron-inhouse-training::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.find-course-button {
+  color: #3192dd;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.find-course-button:hover {
+  color: #3192dd;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.find-course-button:active {
+  color: #3192dd;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  width: 180px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  -o-transform: translateY(1px);
+}
+
+/* E: CONTENT INHOUSE TRAINING */
+
+/* S: CONTENT OUR SERVICES */
+
+.jumbotron-our-services {
+  background: url("../pictures/jumbotron-our-services.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 39px;
+  background-attachment: fixed;
+}
+
+.jumbotron-our-services::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.our-services-image img {
+  object-fit: cover;
+  height: 339px;
+  width: 100%;
+}
+
+.our-services-image h5 {
+  color: #1c76bc;
+  margin-top: 10px;
+}
+
+.our-services-image p {
+  font-size: 0.8rem;
+  color: #6c6c6c;
+}
+
+/* E: CONTENT OUR SERVICES */
+
+/* S: CONTENT CONSULTING */
+
+.jumbotron-consulting {
+  background: url("../pictures/jumbotron-consulting.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 39px;
+  background-attachment: fixed;
+}
+
+.jumbotron-consulting::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.consulting-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.consulting-img::before {
+  content: "";
+  /* Required for pseudo-elements */
+  position: absolute;
+  /* Position it absolutely within the parent */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 1) 1%,
+      rgba(0, 0, 0, 0) 75%);
+  /* Gradient overlay */
+  z-index: 1;
+  /* Ensure the gradient is above the image */
+}
+
+.consulting-img img {
+  object-fit: cover;
+  height: 170px;
+  width: 100%;
+  z-index: 0;
+}
+
+/* E: CONTENT CONSULTING */
+
+/* S: CONTENT NEWS */
+
+.jumbotron-news {
+  background: url("../pictures/jumbotron-news.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 39px;
+  background-attachment: fixed;
+}
+
+.jumbotron-news::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+/* E: CONTENT NEWS */
+
+/* S: CONTENT DETAIL NEWS */
+
+.jumbotron-detail-news {
+  background: url("../pictures/jumbotron-detail-media.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 39px;
+  background-attachment: fixed;
+}
+
+.jumbotron-detail-news::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.7) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.registration-detail-news-button {
+  color: #3192dd;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  width: 220px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.registration-detail-news-button:hover {
+  color: #3192dd;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  width: 220px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.registration-detail-news-button:active {
+  color: #3192dd;
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  width: 220px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  -o-transform: translateY(1px);
+}
+
+.modal-detail-news-border-top {
+  border-bottom: 0 !important;
+}
+
+.modal-detail-news-border-bottom {
+  border-top: 0 !important;
+}
+
+.form-floating {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border: none;
+  /* Menghilangkan border default */
+  border-bottom: 2px solid #007bff;
+  /* Menambahkan border bawah */
+  border-radius: 0;
+  /* Menghilangkan sudut border */
+  box-shadow: none;
+  /* Menghilangkan shadow */
+}
+
+.form-control:focus {
+  box-shadow: none;
+  /* Menghilangkan shadow saat fokus */
+  border-bottom: 2px solid #0056b3;
+  /* Mengubah warna border bawah saat fokus */
+}
+
+/* E: CONTENT DETAIL NEWS */
+
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  .navbar.sticky-top {
+    /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+      Nilai -80px ini adalah CONTOH. 
+      Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
+      agar pas dengan posisi yang Anda inginkan di atas jumbotron.
+    */
+    margin-top: -1365px;
+  }
+
+  /* HEADER */
+
+  #content {
+    margin-top: 1350px;
+  }
+
+  .nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    padding: 0px 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: #1C76BC;
+    font-size: 1rem;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .topbar {
+    z-index: 2;
+  }
+
+  .topbar-text {
+    padding-right: 40px;
+  }
+
+  .jumbotron-text {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: white;
+    z-index: 2;
+    padding-top: 35vh;
+    padding-left: 140px;
+  }
+
+  .jumbotron-button {
+    color: white;
+    font-weight: 400;
+    margin-left: 140px;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
+    z-index: 2;
+  }
+
+  /* S: CONTENT HOME */
+  .text-01-besar {
+    color: #3293df;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .text-01-kecil {
+    color: black;
+    font-size: 1rem;
+    color: #6c6c6c;
+    font-weight: 400;
+  }
+
+  .content-home-bg-contact-us {
+    background-image: linear-gradient(to right,
+        rgba(28, 118, 188, 100),
+        rgba(28, 118, 188, 0.2)),
+      url("../images/pexels-sora-shimazaki-5668859\ 2.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .content-home-footer {
+    background-image: url("../images/Group.png");
+    background-repeat: no-repeat;
+    background-position: bottom right 150px;
+  }
+
+  .content-home-socmed {
+    padding-right: 80px;
+  }
+
+  /* E: CONTENT HOME */
+
+  /* S: CONTENT ABOUT US */
+
+  .jumbotron-about-us-text {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: white;
+    z-index: 9997;
+    padding-top: 40vh;
+    padding-left: 135px;
+  }
+
+  /* E: CONTENT ABOUT US */
+}
+
+@media (max-width: 992px) {
+  .offcanvas-body {
+    background-color: #FFF;
+  }
+
+  .offcanvas {
+    background-color: #FFF;
+  }
+
+  /* S: CONTENT HOME */
+
+  .text-01-besar {
+    color: #3293df;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .text-01-kecil {
+    color: black;
+    font-size: 1rem;
+    color: #6c6c6c;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  /* E: CONTENT HOME */
+}
+
+@media (min-width: 1200px) {
+  .header-menu {
+    padding-left: 130px;
+    padding-right: 30px;
+  }
+
+  .navbar.sticky-top {
+    /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+      Nilai -80px ini adalah CONTOH. 
+      Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
+      agar pas dengan posisi yang Anda inginkan di atas jumbotron.
+    */
+    margin-top: -765px;
+  }
+
+  /* HEADER */
+
+  #content {
+    margin-top: 750px;
+  }
+}
