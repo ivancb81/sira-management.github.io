@@ -51,7 +51,7 @@
     </header>
     <!-- E:HEADER -->
     <!-- S:NAVBAR -->
-    <nav class="navbar navbar-expand-lg py-3 bg-white bg-opacity-75 sticky-top">
+    <nav class="navbar navbar-expand-lg py-3 sticky-top">
         <div class="container col-lg-11 header-menu">
             <a class="navbar-brand navigasi-logo" href="#"><img src="images/logo.png"></a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
@@ -604,6 +604,31 @@
                 }, false)
             })
         })()
+    </script>
+    <script>
+        // ... script lain yang mungkin sudah ada ...
+
+        // SCRIPT UNTUK MENGUBAH WARNA NAVBAR SAAT SCROLL
+        (function () {
+            const navbar = document.querySelector('.navbar.sticky-top');
+
+            // Pastikan elemen navbar ada sebelum melanjutkan
+            if (!navbar) {
+                return;
+            }
+
+            // Tentukan seberapa jauh scroll (dalam pixel) sebelum warna berubah
+            const scrollThreshold = 50;
+
+            window.addEventListener('scroll', function () {
+                // Jika posisi scroll vertikal lebih besar dari threshold
+                if (window.scrollY > scrollThreshold) {
+                    navbar.classList.add('navbar-scrolled');
+                } else {
+                    navbar.classList.remove('navbar-scrolled');
+                }
+            });
+        })();
     </script>
 </body>
 
