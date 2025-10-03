@@ -12,7 +12,6 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px;
-
 }
 
 .primary-color-text {
@@ -198,7 +197,6 @@ a.secondary-color-text:hover {
     padding-bottom: 1px;
     margin-bottom: 3px;
   } */
-
 .navbar.sticky-top {
   /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
       Nilai -80px ini adalah CONTOH. 
@@ -206,7 +204,21 @@ a.secondary-color-text:hover {
       agar pas dengan posisi yang Anda inginkan di atas jumbotron.
     */
   margin-top: -846px;
-  padding-top: env(safe-area-inset-top);
+}
+
+.navbar.sticky-sm-top {
+  /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+      Nilai -80px ini adalah CONTOH. 
+      Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
+      agar pas dengan posisi yang Anda inginkan di atas jumbotron.
+    */
+  margin-top: -846px;
+}
+
+.navbar.sticky-md-top {
+  /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+      Nilai -80px ini adalah CONTOH.*/
+  margin-top: -846px;
 }
 
 /* HEADER */
@@ -839,7 +851,7 @@ a.secondary-color-text:hover {
     padding-right: 30px;
   }
 
-  .navbar.sticky-top {
+  .navbar.sticky-xl-top {
     /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
       Nilai -80px ini adalah CONTOH. 
       Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
