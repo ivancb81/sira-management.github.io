@@ -503,7 +503,7 @@ a.secondary-color-text:hover {
   background: url("../pictures/jumbotron-inhouse.png") no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-top: 39px;
+  margin-top: 0px;
   background-attachment: fixed;
 }
 
@@ -1150,7 +1150,7 @@ a.secondary-color-text:hover {
   }
 
   .jumbotron-about-us-text {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: white;
     z-index: 2;
