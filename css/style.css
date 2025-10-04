@@ -821,17 +821,17 @@ a.secondary-color-text:hover {
 
   .navbar .container {
     /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
-    padding-top: 0px;
+    padding-top: 40px;
     /* Jarak aman minimal yang Anda inginkan */
     /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
        Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
-    padding-top: calc(0px - env(safe-area-inset-top));
+    padding-top: calc(40px - env(safe-area-inset-top));
   }
 
   /* HEADER */
 
   #content {
-    margin-top: 1300px;
+    margin-top: 1250px;
   }
 
   /* .nav-link {
@@ -859,13 +859,20 @@ a.secondary-color-text:hover {
   } */
 
   .topbar {
-    z-index: 2;
-
+    background-color: #3293DF;
+    padding: 10px 0px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    z-index: 999;
+    position: relative;
   }
+
 
   .topbar-text {
     padding-right: 30px;
   }
+
+
 
   .jumbotron-text {
     font-size: 3rem;
@@ -1001,6 +1008,15 @@ a.secondary-color-text:hover {
     /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
        Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
     padding-top: calc(0px - env(safe-area-inset-top));
+  }
+
+  .topbar {
+    background-color: #3293DF;
+    padding: 10px 0px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    z-index: 999;
+    position: relative;
   }
 
   .topbar-text {
