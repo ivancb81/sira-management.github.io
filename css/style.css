@@ -625,7 +625,7 @@ a.secondary-color-text:hover {
   background: url("../pictures/jumbotron-consulting.png") no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-top: 39px;
+  /* margin-top: 39px; */
   background-attachment: fixed;
 }
 
@@ -706,7 +706,7 @@ a.secondary-color-text:hover {
   background: url("../pictures/jumbotron-detail-media.png") no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-top: 39px;
+  /* margin-top: 39px; */
   background-attachment: fixed;
 }
 
@@ -723,6 +723,8 @@ a.secondary-color-text:hover {
   bottom: 0;
   z-index: 0;
 }
+
+
 
 .registration-detail-news-button {
   color: #3192dd;
@@ -1203,5 +1205,9 @@ a.secondary-color-text:hover {
     z-index: 2;
     padding-top: 45vh;
     padding-left: 132px;
+  }
+
+  .jumbotron-detail-news-text {
+    width: 800px;
   }
 }
