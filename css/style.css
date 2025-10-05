@@ -579,7 +579,7 @@ a.secondary-color-text:hover {
   background: url("../pictures/jumbotron-our-services.png") no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-top: 39px;
+  margin-top: 0px;
   background-attachment: fixed;
 }
 
