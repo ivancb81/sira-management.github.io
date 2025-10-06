@@ -910,6 +910,50 @@ a.secondary-color-text:hover {
   z-index: 0;
 }
 
+.jumbotron-contact-us-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  z-index: 2;
+  padding-left: 30px;
+}
+
+.form-control-contact-us {
+  border: none;
+  /* Menghilangkan border default */
+  /* border-bottom: 2px solid #007bff; */
+  /* Menambahkan border bawah */
+  border-radius: 10px;
+  /* Menghilangkan sudut border */
+  /* box-shadow: none; */
+  /* Menghilangkan shadow */
+  background-color: #D9D9D9;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.form-control-contact-us:focus {
+  border-color: #3293DF;
+  /* Warna biru brand Anda */
+  box-shadow: 0 0 0 0.25rem rgba(50, 147, 223, 0.25);
+  /* Glow biru brand Anda */
+}
+
+.form-control-contact-us:hover {
+  box-shadow: none;
+  /* padding: 10px 15px; */
+  /* Menghilangkan shadow saat fokus */
+  /* border: 1px solid #3293DF !important; */
+
+  /* Mengubah warna border bawah saat fokus */
+}
+
+.contact-us-label {
+  color: #1C76BC;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
 /* E: CONTENT CONTACT US */
 
 /* DESKTOP */
