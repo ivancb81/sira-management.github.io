@@ -809,6 +809,83 @@ a.secondary-color-text:hover {
 
 /* E: CONTENT DETAIL NEWS */
 
+/* S: CONTENT PUBLIC TRAINING */
+
+.jumbotron-public-training {
+  background: url("../pictures/pexels-fauxels-3184317 2.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* margin-top: 0px; */
+  background-attachment: fixed;
+}
+
+.jumbotron-public-training::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left,
+      rgba(255, 255, 255, 0.5) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.public-training-download {
+  background-color: #F0F0F0;
+  width: 300px;
+  border-radius: 60px;
+  padding: 20px 20px;
+  text-align: center;
+  color: #1C76BC;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.public-training-download:hover {
+  color: #F0F0F0;
+  background-color: #3293DF;
+  width: 300px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  padding: 20px 20px;
+  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+}
+
+.public-training-download:active {
+  color: #F0F0F0;
+  background-color: #3293DF;
+  width: 300px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  padding: 20px 20px;
+  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+  transform: translateY(1px);
+  -webkit-transform: translateY(1px);
+  -moz-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  -o-transform: translateY(1px);
+}
+
+/* E: CONTENT PUBLIC TRAINING */
+
+/* S: CONTENT ABOUT US */
+
+
+.border-bottom {
+  border-bottom: 1px solid #3293DF !important;
+}
+
+/* E: CONTENT PUBLIC TRAINING */
+
 /* DESKTOP */
 @media (min-width: 992px) {
   .navbar.sticky-top {
@@ -1209,5 +1286,47 @@ a.secondary-color-text:hover {
 
   .jumbotron-detail-news-text {
     width: 800px;
+  }
+
+  .public-training-download {
+    background-color: #F0F0F0;
+    width: 400px;
+    border-radius: 60px;
+    padding: 20px 10px;
+    text-align: center;
+    color: #1C76BC;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  .public-training-download:hover {
+    color: #F0F0F0;
+    background-color: #3293DF;
+    width: 400px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    padding: 20px 10px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+  }
+
+  .public-training-download:active {
+    color: #F0F0F0;
+    background-color: #3293DF;
+    width: 400px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    padding: 20px 10px;
+    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
   }
 }
