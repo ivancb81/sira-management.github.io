@@ -884,7 +884,33 @@ a.secondary-color-text:hover {
   border-bottom: 1px solid #3293DF !important;
 }
 
-/* E: CONTENT PUBLIC TRAINING */
+/* E: CONTENT ABOUT US */
+
+/* S: CONTENT CONTACT US */
+
+.jumbotron-contact-us {
+  background: url("../pictures/pexels-gustavo-fring-4872028 1.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* margin-top: 0px; */
+  background-attachment: fixed;
+}
+
+.jumbotron-contact-us::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left,
+      rgba(255, 255, 255, 0.5) 1%,
+      rgba(0, 0, 0, 0.3) 20%);
+  position: absolute;
+  top: 39px;
+  bottom: 0;
+  z-index: 0;
+}
+
+/* E: CONTENT CONTACT US */
 
 /* DESKTOP */
 @media (min-width: 992px) {
@@ -1211,6 +1237,14 @@ a.secondary-color-text:hover {
     padding-left: 135px;
   }
 
+  .jumbotron-contact-us-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    z-index: 2;
+    padding-left: 135px;
+  }
+
   .jumbotron-button {
     color: white;
     font-weight: 400;
@@ -1329,4 +1363,41 @@ a.secondary-color-text:hover {
     -ms-transform: translateY(1px);
     -o-transform: translateY(1px);
   }
+
+  .form-control-contact-us {
+    border: none;
+    /* Menghilangkan border default */
+    /* border-bottom: 2px solid #007bff; */
+    /* Menambahkan border bawah */
+    border-radius: 10px;
+    /* Menghilangkan sudut border */
+    /* box-shadow: none; */
+    /* Menghilangkan shadow */
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .form-control-contact-us:focus {
+    border-color: #3293DF;
+    /* Warna biru brand Anda */
+    box-shadow: 0 0 0 0.25rem rgba(50, 147, 223, 0.25);
+    /* Glow biru brand Anda */
+  }
+
+  .form-control-contact-us:hover {
+    box-shadow: none;
+    /* padding: 10px 15px; */
+    /* Menghilangkan shadow saat fokus */
+    /* border: 1px solid #3293DF !important; */
+
+    /* Mengubah warna border bawah saat fokus */
+  }
+
+  .contact-us-label {
+    color: #1C76BC;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
 }
