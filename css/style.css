@@ -1,187 +1,187 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .material-symbols-rounded {
-  font-variation-settings: "FILL"0, "wght"1000, "GRAD"0, "opsz"48;
+    font-variation-settings: "FILL"0, "wght"1000, "GRAD"0, "opsz"48;
 }
 
 .material-symbols-outlined {
-  font-variation-settings: "FILL"0, "wght"400, "GRAD"0, "opsz"48;
+    font-variation-settings: "FILL"0, "wght"400, "GRAD"0, "opsz"48;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  padding: 0px;
-  margin: 0px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 .primary-color-text {
-  color: #3293df !important;
+    color: #3293df !important;
 }
 
 .secondary-color-text {
-  color: #1c76bc !important;
+    color: #1c76bc !important;
 }
 
 .third-color-text {
-  color: #6c6c6c !important;
+    color: #6c6c6c !important;
 }
 
 a.secondary-color-text:hover {
-  color: #5cb566 !important;
+    color: #5cb566 !important;
 }
 
 .primary-font-size {
-  font-size: 1rem !important;
+    font-size: 1rem !important;
 }
 
 .secondary-font-size {
-  font-size: 0.9rem !important;
+    font-size: 0.9rem !important;
 }
 
 .third-font-size {
-  font-size: 0.8rem !important;
+    font-size: 0.8rem !important;
 }
 
 .fourth-font-size {
-  font-size: 2.5rem !important;
+    font-size: 2.5rem !important;
 }
 
 .fifth-font-size {
-  font-size: 1.3rem !important;
+    font-size: 1.3rem !important;
 }
 
 .sixth-font-size {
-  font-size: 2rem !important;
+    font-size: 2rem !important;
 }
 
 .text-justify {
-  text-align: justify;
+    text-align: justify;
 }
 
 .background-secondary-color {
-  background-color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 /* HEADER */
 
 .topbar-text {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .jumbotron {
-  background: url("../pictures/jumbotron.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: 0px;
-  background-attachment: fixed;
+    background: url("../pictures/jumbotron.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    background-attachment: fixed;
 }
 
 .jumbotron::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0));
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.8));
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .jumbotron-text {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: white;
-  z-index: 2;
-  padding-top: 45vh;
-  padding-left: 30px;
-  padding-right: 30px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    z-index: 2;
+    padding-top: 45vh;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .jumbotron-button {
-  color: white;
-  font-weight: 400;
-  margin-left: 30px;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  margin-top: 20px;
-  z-index: 2;
+    color: white;
+    font-weight: 400;
+    margin-left: 30px;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    z-index: 2;
 }
 
 /* S:NAVBAR */
 .navbar {
-  /*position: relative;*/
-  z-index: 6;
+    /*position: relative;*/
+    z-index: 6;
 }
 
 .navbar:has(.offcanvas.show) {
-  /* Naikkan z-index lebih tinggi dari semua elemen lain, termasuk offcanvas backdrop (1040) */
-  z-index: 1050;
+    /* Naikkan z-index lebih tinggi dari semua elemen lain, termasuk offcanvas backdrop (1040) */
+    z-index: 1050;
 }
 
 .navbar .nav-link {
-  /* position: relative; */
-  z-index: 6;
+    /* position: relative; */
+    z-index: 6;
 }
 
 .navbar .navbar-nav {
-  /* position: relative; */
-  z-index: 6;
+    /* position: relative; */
+    z-index: 6;
 }
 
 .navigasi {
-  padding: 0px 0px;
+    padding: 0px 0px;
 }
 
 .navigasi-logo img {
-  max-width: 280px;
+    max-width: 280px;
 }
 
 .nav-link {
-  font-size: 1rem;
-  margin: 0 0px;
-  font-weight: 500;
-  color: #3293DF;
+    font-size: 1rem;
+    margin: 0 0px;
+    font-weight: 500;
+    color: #3293DF;
 }
 
 .nav-link:hover {
-  color: #1C76BC;
-  font-size: 1rem;
+    color: #1C76BC;
+    font-size: 1rem;
 }
 
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
-  border: 0px;
-  cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border: 0px;
+    cursor: pointer;
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,147,223, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,147,223, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .closebutton {
-  color: #3293DF !important;
-  font-size: 2rem !important;
-  cursor: pointer;
-  font-weight: 500;
-  z-index: 9999;
+    color: #3293DF !important;
+    font-size: 2rem !important;
+    cursor: pointer;
+    font-weight: 500;
+    z-index: 9999;
 }
 
 .closebutton:hover {
-  color: #19486e !important;
+    color: #19486e !important;
 }
 
 
@@ -209,294 +209,294 @@ a.secondary-color-text:hover {
     margin-bottom: 3px;
   } */
 .navbar.sticky-top {
-  margin-top: -1895px;
-  background-color: rgba(255, 255, 255, 0.82);
-  /* Latar belakang putih dengan opacity 0.8 */
-  /* backdrop-filter: blur(5px); */
-  /* Opsional: untuk efek glassmorphism */
-  transition: background-color 0.4s ease-out;
-  /* Animasi transisi warna yang mulus */
+    margin-top: -1895px;
+    background-color: rgba(255, 255, 255, 0.82);
+    /* Latar belakang putih dengan opacity 0.8 */
+    /* backdrop-filter: blur(5px); */
+    /* Opsional: untuk efek glassmorphism */
+    transition: background-color 0.4s ease-out;
+    /* Animasi transisi warna yang mulus */
 }
 
 .navbar.sticky-top.navbar-scrolled {
-  background-color: #e0e0e0;
-  opacity: 1;
-  /* Contoh warna gelap (Bootstrap dark) */
-  /* Anda bisa ganti dengan warna lain, misal: #19486e (biru gelap Anda) */
+    background-color: #e0e0e0;
+    opacity: 1;
+    /* Contoh warna gelap (Bootstrap dark) */
+    /* Anda bisa ganti dengan warna lain, misal: #19486e (biru gelap Anda) */
 }
 
 /* Ganti warna link agar terbaca di background gelap */
 .navbar.sticky-top.navbar-scrolled .nav-link {
-  color: #3293DF;
-  /* Warna putih */
+    color: #3293DF;
+    /* Warna putih */
 }
 
 .header-menu {
-  padding-left: 32px;
+    padding-left: 32px;
 
 }
 
 .topbar {
-  background-color: #3293DF;
-  padding: 10px 0px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  z-index: 999;
-  position: relative;
+    background-color: #3293DF;
+    padding: 10px 0px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    z-index: 999;
+    position: relative;
 }
 
 .navbar .container {
-  /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
-  padding-top: 40px;
-  /* Jarak aman minimal yang Anda inginkan */
-  /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+    padding-top: 40px;
+    /* Jarak aman minimal yang Anda inginkan */
+    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
        Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
-  padding-top: calc(40px - env(safe-area-inset-top));
+    padding-top: calc(40px - env(safe-area-inset-top));
 }
 
 /* HEADER */
 
 #content {
-  margin-top: 1780px;
+    margin-top: 1780px;
 }
 
 /* S: CONTENT HOME */
 
 .text-01-besar {
-  color: #3293df;
-  font-weight: 700;
-  font-size: 2rem;
+    color: #3293df;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .text-01-kecil {
-  color: black;
-  font-size: 1rem;
-  color: #6c6c6c;
-  font-weight: 400;
+    color: black;
+    font-size: 1rem;
+    color: #6c6c6c;
+    font-weight: 400;
 }
 
 .our-focus-image img {
-  object-fit: cover;
-  height: 206px;
-  width: 100%;
+    object-fit: cover;
+    height: 206px;
+    width: 100%;
 }
 
 .our-focus-image h5 {
-  color: #1c76bc;
-  margin-top: 25px;
-  margin-bottom: 10px;
+    color: #1c76bc;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .our-focus-image p {
-  font-size: 0.9rem;
-  color: #6c6c6c;
+    font-size: 0.9rem;
+    color: #6c6c6c;
 }
 
 .kotak-our-focus {
-  border: 1px solid #3293DF;
-  padding: 10px 10px;
-  font-weight: 500;
-  font-size: 1rem;
-  color: #3293DF;
+    border: 1px solid #3293DF;
+    padding: 10px 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #3293DF;
 }
 
 .content-home-bg-contact {
-  background-color: #3293DF;
+    background-color: #3293DF;
 }
 
 .get-in-touch-text {
-  font-weight: 600;
-  color: white;
-  font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
 }
 
 .get-in-touch-button {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .get-in-touch-button:hover {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .get-in-touch-button:active {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
-  transform: translateY(1px);
-  -webkit-transform: translateY(1px);
-  -moz-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  -o-transform: translateY(1px);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
 }
 
 .request-a-call-back-button {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 250px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .request-a-call-back-button:hover {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 250px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .request-a-call-back-button:active {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #5cb566;
-  width: 250px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
-  transform: translateY(1px);
-  -webkit-transform: translateY(1px);
-  -moz-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  -o-transform: translateY(1px);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #5cb566;
+    width: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
 }
 
 .content-home-why-choose img {
-  width: 123px;
-  height: 123px;
-  object-fit: cover;
+    width: 123px;
+    height: 123px;
+    object-fit: cover;
 }
 
 .content-home-productivity img {
-  height: 250px;
+    height: 250px;
 }
 
 .content-home-bg-contact-us {
-  background-color: #1c76bc;
+    background-color: #1c76bc;
 }
 
 .content-home-footer {
-  background-image: url("../images/Group.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+    background-image: url("../images/Group.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .content-home-bg-footer {
-  background-color: #5cb566;
-  height: 50px;
+    background-color: #5cb566;
+    height: 50px;
 }
 
 .content-home-bg-upcoming-event {
-  background-color: #1C76BC;
+    background-color: #1C76BC;
 }
 
 .content-home-upcoming-event img {
-  height: 200px;
-  object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .content-home-upcoming-event h5 {
-  color: #1C76BC;
-  font-size: 0.8rem;
-  font-weight: bold;
+    color: #1C76BC;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .content-home-upcoming-event p {
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: #7D7A7A;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #7D7A7A;
 }
 
 /* E: CONTENT HOME */
 
 /* S: CONTENT ABOUT US */
 .jumbotron-about-us {
-  background: url("../pictures/pexels-fauxels-3184424\ 1.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: 0px;
-  background-attachment: fixed;
+    background: url("../pictures/pexels-fauxels-3184424\ 1.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    background-attachment: fixed;
 }
 
 .jumbotron-about-us::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.7) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.7) 1%,
+            rgba(0, 0, 0, 0.5) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .jumbotron-about-us-text {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: white;
-  z-index: 2;
-  padding-top: 45vh;
-  padding-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    z-index: 2;
+    padding-top: 45vh;
+    padding-left: 30px;
 }
 
 .content-about-us-text {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .content-about-us-vendor-text {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 /* E: CONTENT ABOUT US */
@@ -504,75 +504,75 @@ a.secondary-color-text:hover {
 /* S: CONTENT INHOUSE TRAINING */
 
 .jumbotron-inhouse-training {
-  background: url("../pictures/jumbotron-inhouse.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: 0px;
-  background-attachment: fixed;
+    background: url("../pictures/jumbotron-inhouse.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    background-attachment: fixed;
 }
 
 .jumbotron-inhouse-training::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.7) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.7) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .find-course-button {
-  color: #3192dd;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: #f0f0f0;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: #3192dd;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .find-course-button:hover {
-  color: #3192dd;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: #f0f0f0;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: #3192dd;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .find-course-button:active {
-  color: #3192dd;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: #f0f0f0;
-  width: 180px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 5px 20px;
-  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
-  transform: translateY(1px);
-  -webkit-transform: translateY(1px);
-  -moz-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  -o-transform: translateY(1px);
+    color: #3192dd;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    width: 180px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
 }
 
 /* E: CONTENT INHOUSE TRAINING */
@@ -580,41 +580,41 @@ a.secondary-color-text:hover {
 /* S: CONTENT OUR SERVICES */
 
 .jumbotron-our-services {
-  background: url("../pictures/jumbotron-our-services.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: 0px;
-  background-attachment: fixed;
+    background: url("../pictures/jumbotron-our-services.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+    background-attachment: fixed;
 }
 
 .jumbotron-our-services::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.7) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.7) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .our-services-image img {
-  object-fit: cover;
-  height: 339px;
-  width: 100%;
+    object-fit: cover;
+    height: 339px;
+    width: 100%;
 }
 
 .our-services-image h5 {
-  color: #1c76bc;
-  margin-top: 10px;
+    color: #1c76bc;
+    margin-top: 10px;
 }
 
 .our-services-image p {
-  font-size: 0.8rem;
-  color: #6c6c6c;
+    font-size: 0.8rem;
+    color: #6c6c6c;
 }
 
 /* E: CONTENT OUR SERVICES */
@@ -622,54 +622,54 @@ a.secondary-color-text:hover {
 /* S: CONTENT CONSULTING */
 
 .jumbotron-consulting {
-  background: url("../pictures/jumbotron-consulting.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  /* margin-top: 39px; */
-  background-attachment: fixed;
+    background: url("../pictures/jumbotron-consulting.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: 39px; */
+    background-attachment: fixed;
 }
 
 .jumbotron-consulting::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.7) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.7) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .consulting-img {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .consulting-img::before {
-  content: "";
-  /* Required for pseudo-elements */
-  position: absolute;
-  /* Position it absolutely within the parent */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 1) 1%,
-      rgba(0, 0, 0, 0) 75%);
-  /* Gradient overlay */
-  z-index: 1;
-  /* Ensure the gradient is above the image */
+    content: "";
+    /* Required for pseudo-elements */
+    position: absolute;
+    /* Position it absolutely within the parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 1) 1%,
+            rgba(0, 0, 0, 0) 75%);
+    /* Gradient overlay */
+    z-index: 1;
+    /* Ensure the gradient is above the image */
 }
 
 .consulting-img img {
-  object-fit: cover;
-  height: 170px;
-  width: 100%;
-  z-index: 0;
+    object-fit: cover;
+    height: 170px;
+    width: 100%;
+    z-index: 0;
 }
 
 /* E: CONTENT CONSULTING */
@@ -677,25 +677,25 @@ a.secondary-color-text:hover {
 /* S: CONTENT NEWS */
 
 .jumbotron-news {
-  background: url("../pictures/jumbotron-news.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  /* margin-top: 39px; */
-  background-attachment: fixed;
+    background: url("../pictures/jumbotron-news.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: 39px; */
+    background-attachment: fixed;
 }
 
 .jumbotron-news::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.7) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.7) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 /* E: CONTENT NEWS */
@@ -703,108 +703,108 @@ a.secondary-color-text:hover {
 /* S: CONTENT DETAIL NEWS */
 
 .jumbotron-detail-news {
-  background: url("../pictures/jumbotron-detail-media.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  /* margin-top: 39px; */
-  background-attachment: fixed;
+    background: url("../pictures/jumbotron-detail-media.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: 39px; */
+    background-attachment: fixed;
 }
 
 .jumbotron-detail-news::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.7) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.7) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 
 
 .registration-detail-news-button {
-  color: #3192dd;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: #f0f0f0;
-  width: 220px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 10px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: #3192dd;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    width: 220px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .registration-detail-news-button:hover {
-  color: #3192dd;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: #f0f0f0;
-  width: 220px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 10px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: #3192dd;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    width: 220px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .registration-detail-news-button:active {
-  color: #3192dd;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: #f0f0f0;
-  width: 220px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  padding: 10px 20px;
-  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
-  transform: translateY(1px);
-  -webkit-transform: translateY(1px);
-  -moz-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  -o-transform: translateY(1px);
+    color: #3192dd;
+    font-weight: 400;
+    font-size: 0.9rem;
+    background-color: #f0f0f0;
+    width: 220px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
 }
 
 .modal-detail-news-border-top {
-  border-bottom: 0 !important;
+    border-bottom: 0 !important;
 }
 
 .modal-detail-news-border-bottom {
-  border-top: 0 !important;
+    border-top: 0 !important;
 }
 
 .form-floating {
-  position: relative;
-  margin-bottom: 1rem;
+    position: relative;
+    margin-bottom: 1rem;
 }
 
 .form-control {
-  border: none;
-  /* Menghilangkan border default */
-  border-bottom: 2px solid #007bff;
-  /* Menambahkan border bawah */
-  border-radius: 0;
-  /* Menghilangkan sudut border */
-  box-shadow: none;
-  /* Menghilangkan shadow */
+    border: none;
+    /* Menghilangkan border default */
+    border-bottom: 2px solid #007bff;
+    /* Menambahkan border bawah */
+    border-radius: 0;
+    /* Menghilangkan sudut border */
+    box-shadow: none;
+    /* Menghilangkan shadow */
 }
 
 .form-control:focus {
-  box-shadow: none;
-  /* Menghilangkan shadow saat fokus */
-  border-bottom: 2px solid #0056b3;
-  /* Mengubah warna border bawah saat fokus */
+    box-shadow: none;
+    /* Menghilangkan shadow saat fokus */
+    border-bottom: 2px solid #0056b3;
+    /* Mengubah warna border bawah saat fokus */
 }
 
 /* E: CONTENT DETAIL NEWS */
@@ -812,67 +812,67 @@ a.secondary-color-text:hover {
 /* S: CONTENT PUBLIC TRAINING */
 
 .jumbotron-public-training {
-  background: url("../pictures/pexels-fauxels-3184317 2.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  /* margin-top: 0px; */
-  background-attachment: fixed;
+    background: url("../pictures/pexels-fauxels-3184317 2.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: 0px; */
+    background-attachment: fixed;
 }
 
 .jumbotron-public-training::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to left,
-      rgba(255, 255, 255, 0.5) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,
+            rgba(255, 255, 255, 0.5) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .public-training-download {
-  background-color: #F0F0F0;
-  width: 300px;
-  border-radius: 60px;
-  padding: 20px 20px;
-  text-align: center;
-  color: #1C76BC;
-  font-weight: bold;
-  font-size: 1rem;
+    background-color: #F0F0F0;
+    width: 300px;
+    border-radius: 60px;
+    padding: 20px 20px;
+    text-align: center;
+    color: #1C76BC;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .public-training-download:hover {
-  color: #F0F0F0;
-  background-color: #3293DF;
-  width: 300px;
-  border-radius: 60px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -ms-border-radius: 60px;
-  -o-border-radius: 60px;
-  padding: 20px 20px;
-  box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    color: #F0F0F0;
+    background-color: #3293DF;
+    width: 300px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    padding: 20px 20px;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
 }
 
 .public-training-download:active {
-  color: #F0F0F0;
-  background-color: #3293DF;
-  width: 300px;
-  border-radius: 60px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -ms-border-radius: 60px;
-  -o-border-radius: 60px;
-  padding: 20px 20px;
-  box-shadow: 0 2px rgb(0, 0, 0, 0.25);
-  transform: translateY(1px);
-  -webkit-transform: translateY(1px);
-  -moz-transform: translateY(1px);
-  -ms-transform: translateY(1px);
-  -o-transform: translateY(1px);
+    color: #F0F0F0;
+    background-color: #3293DF;
+    width: 300px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    padding: 20px 20px;
+    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+    transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -o-transform: translateY(1px);
 }
 
 /* E: CONTENT PUBLIC TRAINING */
@@ -881,7 +881,7 @@ a.secondary-color-text:hover {
 
 
 .border-bottom {
-  border-bottom: 1px solid #3293DF !important;
+    border-bottom: 1px solid #3293DF !important;
 }
 
 /* E: CONTENT ABOUT US */
@@ -889,105 +889,137 @@ a.secondary-color-text:hover {
 /* S: CONTENT CONTACT US */
 
 .jumbotron-contact-us {
-  background: url("../pictures/pexels-gustavo-fring-4872028 1.png") no-repeat;
-  background-size: cover;
-  height: 100vh;
-  /* margin-top: 0px; */
-  background-attachment: fixed;
+    background: url("../pictures/pexels-gustavo-fring-4872028 1.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: 0px; */
+    background-attachment: fixed;
 }
 
 .jumbotron-contact-us::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to left,
-      rgba(255, 255, 255, 0.5) 1%,
-      rgba(0, 0, 0, 0.3) 20%);
-  position: absolute;
-  top: 39px;
-  bottom: 0;
-  z-index: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,
+            rgba(255, 255, 255, 0.5) 1%,
+            rgba(0, 0, 0, 0.3) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
 }
 
 .jumbotron-contact-us-text {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: white;
-  z-index: 2;
-  padding-left: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    z-index: 2;
+    padding-left: 30px;
 }
 
 .form-control-contact-us {
-  border: none;
-  /* Menghilangkan border default */
-  /* border-bottom: 2px solid #007bff; */
-  /* Menambahkan border bawah */
-  border-radius: 10px;
-  /* Menghilangkan sudut border */
-  /* box-shadow: none; */
-  /* Menghilangkan shadow */
-  background-color: #D9D9D9;
-  width: 100%;
-  padding: 10px 15px;
+    border: none;
+    /* Menghilangkan border default */
+    /* border-bottom: 2px solid #007bff; */
+    /* Menambahkan border bawah */
+    border-radius: 10px;
+    /* Menghilangkan sudut border */
+    /* box-shadow: none; */
+    /* Menghilangkan shadow */
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 10px 15px;
 }
 
 .form-control-contact-us:focus {
-  border-color: #3293DF;
-  /* Warna biru brand Anda */
-  box-shadow: 0 0 0 0.25rem rgba(50, 147, 223, 0.25);
-  /* Glow biru brand Anda */
+    border-color: #3293DF;
+    /* Warna biru brand Anda */
+    box-shadow: 0 0 0 0.25rem rgba(50, 147, 223, 0.25);
+    /* Glow biru brand Anda */
 }
 
 .form-control-contact-us:hover {
-  box-shadow: none;
-  /* padding: 10px 15px; */
-  /* Menghilangkan shadow saat fokus */
-  /* border: 1px solid #3293DF !important; */
+    box-shadow: none;
+    /* padding: 10px 15px; */
+    /* Menghilangkan shadow saat fokus */
+    /* border: 1px solid #3293DF !important; */
 
-  /* Mengubah warna border bawah saat fokus */
+    /* Mengubah warna border bawah saat fokus */
 }
 
 .contact-us-label {
-  color: #1C76BC;
-  font-weight: 500;
-  font-size: 1.1rem;
+    color: #1C76BC;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 /* E: CONTENT CONTACT US */
 
+/* S: CONTENT OUR SOLUTIONS */
+
+.jumbotron-our-solutions {
+    background: url("../pictures/pexels-shvets-production-7176317 1.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* margin-top: 0px; */
+    background-attachment: fixed;
+}
+
+.jumbotron-our-solutions::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left,
+            rgba(0, 0, 0, 0.5) 1%,
+            rgba(0, 0, 0, 0.5) 20%);
+    position: absolute;
+    top: 39px;
+    bottom: 0;
+    z-index: 0;
+}
+
+.our-solutions-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* E: CONTENT OUR SOLUTIONS */
+
 /* DESKTOP */
 @media (min-width: 992px) {
-  .navbar.sticky-top {
-    /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+    .navbar.sticky-top {
+        /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
       Nilai -80px ini adalah CONTOH. 
       Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
       agar pas dengan posisi yang Anda inginkan di atas jumbotron.
     */
-    margin-top: -1365px;
-  }
+        margin-top: -1365px;
+    }
 
-  .nav-link:hover {
-    color: #1C76BC;
-    font-size: 1rem;
-  }
+    .nav-link:hover {
+        color: #1C76BC;
+        font-size: 1rem;
+    }
 
-  .navbar .container {
-    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
-    padding-top: 40px;
-    /* Jarak aman minimal yang Anda inginkan */
-    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+    .navbar .container {
+        /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+        padding-top: 40px;
+        /* Jarak aman minimal yang Anda inginkan */
+        /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
        Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
-    padding-top: calc(40px - env(safe-area-inset-top));
-  }
+        padding-top: calc(40px - env(safe-area-inset-top));
+    }
 
-  /* HEADER */
+    /* HEADER */
 
-  #content {
-    margin-top: 1250px;
-  }
+    #content {
+        margin-top: 1250px;
+    }
 
-  /* .nav-link {
+    /* .nav-link {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     font-style: normal;
@@ -1011,437 +1043,441 @@ a.secondary-color-text:hover {
     margin-bottom: -8px;
   } */
 
-  .topbar {
-    background-color: #3293DF;
-    padding: 10px 0px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    z-index: 999;
-    position: relative;
-  }
+    .topbar {
+        background-color: #3293DF;
+        padding: 10px 0px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        z-index: 999;
+        position: relative;
+    }
 
 
-  .topbar-text {
-    padding-right: 30px;
-  }
-
-
-
-  .jumbotron-text {
-    font-size: 3rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-top: 55vh;
-    padding-left: 35px;
-  }
-
-  .jumbotron-button {
-    color: white;
-    font-weight: 400;
-    margin-left: 35px;
-    font-size: 1rem;
-    background-color: #5cb566;
-    width: 180px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    padding: 5px 20px;
-    margin-top: 20px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
-    z-index: 2;
-  }
-
-  /* S: CONTENT HOME */
-  .text-01-besar {
-    color: #3293df;
-    font-weight: 700;
-    font-size: 2rem;
-  }
-
-  .text-01-kecil {
-    color: black;
-    font-size: 1rem;
-    color: #6c6c6c;
-    font-weight: 400;
-  }
-
-  .content-home-bg-contact-us {
-    background-image: linear-gradient(to right,
-        rgba(28, 118, 188, 100),
-        rgba(28, 118, 188, 0.2)),
-      url("../images/pexels-sora-shimazaki-5668859\ 2.png");
-    background-position: right top;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-
-  .content-home-footer {
-    background-image: url("../images/Group.png");
-    background-repeat: no-repeat;
-    background-position: bottom right 150px;
-  }
-
-  .content-home-socmed {
-    padding-right: 80px;
-  }
-
-  /* E: CONTENT HOME */
-
-  /* S: CONTENT ABOUT US */
-
-  .jumbotron-about-us-text {
-    font-size: 2.3rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-top: 40vh;
-    padding-left: 40px;
-  }
+    .topbar-text {
+        padding-right: 30px;
+    }
 
 
 
-  /* E: CONTENT ABOUT US */
+    .jumbotron-text {
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-top: 55vh;
+        padding-left: 35px;
+    }
+
+    .jumbotron-button {
+        color: white;
+        font-weight: 400;
+        margin-left: 35px;
+        font-size: 1rem;
+        background-color: #5cb566;
+        width: 180px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 5px 20px;
+        margin-top: 20px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
+        z-index: 2;
+    }
+
+    /* S: CONTENT HOME */
+    .text-01-besar {
+        color: #3293df;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .text-01-kecil {
+        color: black;
+        font-size: 1rem;
+        color: #6c6c6c;
+        font-weight: 400;
+    }
+
+    .content-home-bg-contact-us {
+        background-image: linear-gradient(to right,
+                rgba(28, 118, 188, 100),
+                rgba(28, 118, 188, 0.2)),
+            url("../images/pexels-sora-shimazaki-5668859\ 2.png");
+        background-position: right top;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .content-home-footer {
+        background-image: url("../images/Group.png");
+        background-repeat: no-repeat;
+        background-position: bottom right 150px;
+    }
+
+    .content-home-socmed {
+        padding-right: 80px;
+    }
+
+    /* E: CONTENT HOME */
+
+    /* S: CONTENT ABOUT US */
+
+    .jumbotron-about-us-text {
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-top: 40vh;
+        padding-left: 40px;
+    }
+
+
+
+    /* E: CONTENT ABOUT US */
 }
 
 @media (max-width: 992px) {
-  .offcanvas-body {
-    background-color: #FFF;
-  }
+    .offcanvas-body {
+        background-color: #FFF;
+    }
 
-  .offcanvas {
-    background-color: #FFF;
-  }
+    .offcanvas {
+        background-color: #FFF;
+    }
 
-  /* S: CONTENT HOME */
+    /* S: CONTENT HOME */
 
-  .text-01-besar {
-    color: #3293df;
-    font-weight: 700;
-    font-size: 2rem;
-  }
+    .text-01-besar {
+        color: #3293df;
+        font-weight: 700;
+        font-size: 2rem;
+    }
 
-  .text-01-kecil {
-    color: black;
-    font-size: 1rem;
-    color: #6c6c6c;
-    font-weight: 400;
-    margin-top: 10px;
-  }
+    .text-01-kecil {
+        color: black;
+        font-size: 1rem;
+        color: #6c6c6c;
+        font-weight: 400;
+        margin-top: 10px;
+    }
 
-  /* E: CONTENT HOME */
+    /* E: CONTENT HOME */
 }
 
 @media (min-width: 1200px) {
-  .header-menu {
-    padding-left: 130px;
-    padding-right: 30px;
-  }
+    .header-menu {
+        padding-left: 130px;
+        padding-right: 30px;
+    }
 
-  .nav-link:hover {
-    color: #1C76BC;
-    font-size: 1rem;
-  }
+    .nav-link:hover {
+        color: #1C76BC;
+        font-size: 1rem;
+    }
 
-  .navbar.sticky-top {
-    /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+    .navbar.sticky-top {
+        /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
       Nilai -80px ini adalah CONTOH. 
       Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
       agar pas dengan posisi yang Anda inginkan di atas jumbotron.
     */
-    margin-top: -1025px;
-  }
+        margin-top: -1025px;
+    }
 
-  .navbar .container {
-    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
-    padding-top: 0px;
-    /* Jarak aman minimal yang Anda inginkan */
-    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+    .navbar .container {
+        /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+        padding-top: 0px;
+        /* Jarak aman minimal yang Anda inginkan */
+        /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
        Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
-    padding-top: calc(0px - env(safe-area-inset-top));
-  }
+        padding-top: calc(0px - env(safe-area-inset-top));
+    }
 
-  .topbar {
-    background-color: #3293DF;
-    padding: 10px 0px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    z-index: 999;
-    position: relative;
-  }
+    .topbar {
+        background-color: #3293DF;
+        padding: 10px 0px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        z-index: 999;
+        position: relative;
+    }
 
-  .topbar-text {
-    padding-right: 50px;
-  }
+    .topbar-text {
+        padding-right: 50px;
+    }
 
 
-  /* HEADER */
+    /* HEADER */
 
-  #content {
-    margin-top: 970px;
-  }
+    #content {
+        margin-top: 970px;
+    }
 
-  .jumbotron-text {
-    font-size: 3rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-top: 55vh;
-    padding-left: 130px;
-  }
+    .jumbotron-text {
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-top: 55vh;
+        padding-left: 130px;
+    }
 
-  .jumbotron-button {
-    color: white;
-    font-weight: 400;
-    margin-left: 130px;
-    font-size: 1rem;
-    background-color: #5cb566;
-    width: 180px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    padding: 5px 20px;
-    margin-top: 20px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
-    z-index: 2;
-  }
+    .jumbotron-button {
+        color: white;
+        font-weight: 400;
+        margin-left: 130px;
+        font-size: 1rem;
+        background-color: #5cb566;
+        width: 180px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 5px 20px;
+        margin-top: 20px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
+        z-index: 2;
+    }
 
-  .jumbotron-about-us-text {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-top: 45vh;
-    padding-left: 150px;
-  }
+    .jumbotron-about-us-text {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-top: 45vh;
+        padding-left: 150px;
+    }
 }
 
 @media (min-width: 1400px) {
-  .header-menu {
-    padding-left: 130px;
-    padding-right: 30px;
-  }
+    .header-menu {
+        padding-left: 130px;
+        padding-right: 30px;
+    }
 
-  .nav-link {
-    font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    padding: 0px 20px;
-    text-align: center;
-    font-weight: 500;
-  }
+    .nav-link {
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        padding: 0px 20px;
+        text-align: center;
+        font-weight: 500;
+    }
 
-  .nav-link:hover {
-    color: #1C76BC;
-    font-size: 1rem;
-  }
+    .nav-link:hover {
+        color: #1C76BC;
+        font-size: 1rem;
+    }
 
-  .nav-link:hover::after {
-    content: "";
-    display: block;
-    border-bottom: 2px solid #0b63dc;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
-  .navbar.sticky-top {
-    /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
+    .navbar.sticky-top {
+        /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
       Nilai -80px ini adalah CONTOH. 
       Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
       agar pas dengan posisi yang Anda inginkan di atas jumbotron.
     */
-    margin-top: -765px;
-  }
+        /* margin-top: -765px; */
+        margin-top: -775px;
 
-  .navbar .container {
-    /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
-    padding-top: 0px;
-    /* Jarak aman minimal yang Anda inginkan */
-    /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
+    }
+
+    .navbar .container {
+        /* 1. Nilai fallback untuk browser/perangkat yang tidak punya safe area */
+        padding-top: 0px;
+        /* Jarak aman minimal yang Anda inginkan */
+        /* 2. Nilai modern yang akan menimpa fallback di perangkat seperti iPhone.
        Browser akan otomatis menghitung: 10px + (ukuran notch/dynamic island) */
-    padding-top: calc(0px - env(safe-area-inset-top));
-  }
+        padding-top: calc(0px - env(safe-area-inset-top));
+    }
 
-  .topbar-text {
-    padding-right: 50px;
-  }
+    .topbar-text {
+        padding-right: 50px;
+    }
 
-  .jumbotron-text {
-    font-size: 2.4rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-top: 55vh;
-    padding-left: 135px;
-  }
+    .jumbotron-text {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-top: 55vh;
+        padding-left: 135px;
+    }
 
-  .jumbotron-contact-us-text {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-left: 135px;
-  }
+    .jumbotron-contact-us-text {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-left: 135px;
+    }
 
-  .jumbotron-button {
-    color: white;
-    font-weight: 400;
-    margin-left: 135px;
-    font-size: 1rem;
-    background-color: #5cb566;
-    width: 180px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    padding: 5px 20px;
-    margin-top: 20px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
-    z-index: 2;
-  }
+    .jumbotron-button {
+        color: white;
+        font-weight: 400;
+        margin-left: 135px;
+        font-size: 1rem;
+        background-color: #5cb566;
+        width: 180px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 5px 20px;
+        margin-top: 20px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 0.25);
+        z-index: 2;
+    }
 
 
-  /* HEADER */
+    /* HEADER */
 
-  #content {
-    margin-top: 700px;
-  }
+    #content {
+        margin-top: 700px;
+    }
 
-  .home-who-we-are h3 {
-    padding-left: 115px;
-  }
+    .home-who-we-are h3 {
+        padding-left: 115px;
+    }
 
-  .home-who-we-are h4 {
-    padding-left: 115px;
-  }
+    .home-who-we-are h4 {
+        padding-left: 115px;
+    }
 
-  .home-who-we-are p {
-    padding-left: 115px;
-  }
+    .home-who-we-are p {
+        padding-left: 115px;
+    }
 
-  .content-home-upcoming-event-text {
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
 
-  .content-home-upcoming-event img {
-    height: 200px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-  }
 
-  .content-home-upcoming-event h5 {
-    color: #1C76BC;
-    font-size: 0.8rem;
-    font-weight: bold;
-  }
+    .content-home-upcoming-event-text {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
 
-  .content-home-upcoming-event p {
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: #7D7A7A;
-  }
+    .content-home-upcoming-event img {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
 
-  .content-about-us-vendor-text {
-    margin-top: 375px;
-  }
+    .content-home-upcoming-event h5 {
+        color: #1C76BC;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
 
-  .jumbotron-about-us-text {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: white;
-    z-index: 2;
-    padding-top: 45vh;
-    padding-left: 132px;
-  }
+    .content-home-upcoming-event p {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #7D7A7A;
+    }
 
-  .jumbotron-detail-news-text {
-    width: 800px;
-  }
+    .content-about-us-vendor-text {
+        margin-top: 375px;
+    }
 
-  .public-training-download {
-    background-color: #F0F0F0;
-    width: 400px;
-    border-radius: 60px;
-    padding: 20px 10px;
-    text-align: center;
-    color: #1C76BC;
-    font-weight: bold;
-    font-size: 1.3rem;
-  }
+    .jumbotron-about-us-text {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: white;
+        z-index: 2;
+        padding-top: 45vh;
+        padding-left: 132px;
+    }
 
-  .public-training-download:hover {
-    color: #F0F0F0;
-    background-color: #3293DF;
-    width: 400px;
-    border-radius: 60px;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
-    -ms-border-radius: 60px;
-    -o-border-radius: 60px;
-    padding: 20px 10px;
-    box-shadow: 0 4px rgb(0, 0, 0, 0.25);
-  }
+    .jumbotron-detail-news-text {
+        width: 800px;
+    }
 
-  .public-training-download:active {
-    color: #F0F0F0;
-    background-color: #3293DF;
-    width: 400px;
-    border-radius: 60px;
-    -webkit-border-radius: 60px;
-    -moz-border-radius: 60px;
-    -ms-border-radius: 60px;
-    -o-border-radius: 60px;
-    padding: 20px 10px;
-    box-shadow: 0 2px rgb(0, 0, 0, 0.25);
-    transform: translateY(1px);
-    -webkit-transform: translateY(1px);
-    -moz-transform: translateY(1px);
-    -ms-transform: translateY(1px);
-    -o-transform: translateY(1px);
-  }
+    .public-training-download {
+        background-color: #F0F0F0;
+        width: 400px;
+        border-radius: 60px;
+        padding: 20px 10px;
+        text-align: center;
+        color: #1C76BC;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
 
-  .form-control-contact-us {
-    border: none;
-    /* Menghilangkan border default */
-    /* border-bottom: 2px solid #007bff; */
-    /* Menambahkan border bawah */
-    border-radius: 10px;
-    /* Menghilangkan sudut border */
-    /* box-shadow: none; */
-    /* Menghilangkan shadow */
-    background-color: #D9D9D9;
-    width: 100%;
-    padding: 10px 15px;
-  }
+    .public-training-download:hover {
+        color: #F0F0F0;
+        background-color: #3293DF;
+        width: 400px;
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+        padding: 20px 10px;
+        box-shadow: 0 4px rgb(0, 0, 0, 0.25);
+    }
 
-  .form-control-contact-us:focus {
-    border-color: #3293DF;
-    /* Warna biru brand Anda */
-    box-shadow: 0 0 0 0.25rem rgba(50, 147, 223, 0.25);
-    /* Glow biru brand Anda */
-  }
+    .public-training-download:active {
+        color: #F0F0F0;
+        background-color: #3293DF;
+        width: 400px;
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+        -o-border-radius: 60px;
+        padding: 20px 10px;
+        box-shadow: 0 2px rgb(0, 0, 0, 0.25);
+        transform: translateY(1px);
+        -webkit-transform: translateY(1px);
+        -moz-transform: translateY(1px);
+        -ms-transform: translateY(1px);
+        -o-transform: translateY(1px);
+    }
 
-  .form-control-contact-us:hover {
-    box-shadow: none;
-    /* padding: 10px 15px; */
-    /* Menghilangkan shadow saat fokus */
-    /* border: 1px solid #3293DF !important; */
+    .form-control-contact-us {
+        border: none;
+        /* Menghilangkan border default */
+        /* border-bottom: 2px solid #007bff; */
+        /* Menambahkan border bawah */
+        border-radius: 10px;
+        /* Menghilangkan sudut border */
+        /* box-shadow: none; */
+        /* Menghilangkan shadow */
+        background-color: #D9D9D9;
+        width: 100%;
+        padding: 10px 15px;
+    }
 
-    /* Mengubah warna border bawah saat fokus */
-  }
+    .form-control-contact-us:focus {
+        border-color: #3293DF;
+        /* Warna biru brand Anda */
+        box-shadow: 0 0 0 0.25rem rgba(50, 147, 223, 0.25);
+        /* Glow biru brand Anda */
+    }
 
-  .contact-us-label {
-    color: #1C76BC;
-    font-weight: 500;
-    font-size: 1.1rem;
-  }
+    .form-control-contact-us:hover {
+        box-shadow: none;
+        /* padding: 10px 15px; */
+        /* Menghilangkan shadow saat fokus */
+        /* border: 1px solid #3293DF !important; */
+
+        /* Mengubah warna border bawah saat fokus */
+    }
+
+    .contact-us-label {
+        color: #1C76BC;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
 
 }
