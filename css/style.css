@@ -1284,9 +1284,9 @@ a.secondary-color-text:hover {
 
     .navbar.sticky-top {
         /* 'Tarik' navbar ke atas sebanyak tinggi navbar itu sendiri.
-      Nilai -80px ini adalah CONTOH. 
-      Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
-      agar pas dengan posisi yang Anda inginkan di atas jumbotron.
+    Nilai -80px ini adalah CONTOH. 
+    Anda mungkin perlu menyesuaikannya menjadi -70px, -90px, dst.
+    agar pas dengan posisi yang Anda inginkan di atas jumbotron.
     */
         /* margin-top: -765px; */
         margin-top: -775px;
